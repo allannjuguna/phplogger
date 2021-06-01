@@ -1,5 +1,5 @@
 # PhpLogger
-This is a simple logger built in php
+This is a simple logger built in php<br>
 The logger is capable of logging the following:
 ```
 - Date
