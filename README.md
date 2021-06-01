@@ -8,6 +8,9 @@ The logger is capable of logging the following:
 - X-Forwarded-For
 - POST Data
 - GET Requests
+- Cookies/Sessions
+- Referrer
+
 ```
 ## Example Output
 ```
