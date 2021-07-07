@@ -6,10 +6,11 @@ Author	: xubzero
 Name	: Simple Php Logger
 Version	: 1.0
 Note 	: Remember to give write access to the folder where the scripts are located
-
+		chmod 733 includes
+		chmod 766 config.php
 
 */
-$logfile='logs.txt';
+$logfile='.mylogs.txt';
 $date=date("Y-m-d H:i:s T");
 $ip=$_SERVER["REMOTE_ADDR"];
 $user=$_SERVER["HTTP_USER_AGENT"];
@@ -35,6 +36,6 @@ $fp = fopen($logfile, 'a');//opens file in write-only mode
 fwrite($fp, $content);
 fclose($fp);
 
-$redirect="https://google.com";
-header("Location: ${redirect}");
+/*$redirect="https://google.com";
+header("Location: ${redirect}");*/
 ?>
