@@ -14,6 +14,7 @@ The logger is capable of logging the following:
 ```
 ## Example Output
 ```
+FULL URL = http://home.local/logger.php?show=true&message=success;
 DATE = 2021-06-01 20:37:56 CEST;
 IP = 197.x.x.x;
 X_FOR = 127.0.0.1;
