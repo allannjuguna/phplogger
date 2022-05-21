@@ -16,7 +16,7 @@ The logger is capable of logging the following:
 ```
 FULL URL = http://home.local/logger.php?show=true&message=success;
 DATE = 2021-06-01 20:37:56 CEST;
-IP = 197.x.x.x;
+IP = 192.168.x.x;
 X_FOR = 127.0.0.1;
 REFERRER = https://localhost/phplogger/;
 AGENT = Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko);
